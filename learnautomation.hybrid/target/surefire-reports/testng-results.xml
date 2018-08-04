@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36085" started-at="2018-08-04T03:50:07Z" finished-at="2018-08-04T03:50:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36085" started-at="2018-08-04T03:50:07Z" finished-at="2018-08-04T03:50:44Z">
+      <class name="testcases.CreateContacts2">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="setUpReport" is-config="true" duration-ms="232" started-at="2018-08-04T09:20:07Z" finished-at="2018-08-04T09:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="setupApplication" is-config="true" duration-ms="11028" started-at="2018-08-04T09:20:07Z" finished-at="2018-08-04T09:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="validLogin" duration-ms="11116" started-at="2018-08-04T09:20:18Z" finished-at="2018-08-04T09:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.CreateContacts2@6615435c]" name="endTest" is-config="true" duration-ms="359" started-at="2018-08-04T09:20:30Z" finished-at="2018-08-04T09:20:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=CreateContacts2.validLogin()[pri:0, instance:testcases.CreateContacts2@6615435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="createContact" duration-ms="9180" started-at="2018-08-04T09:20:30Z" depends-on-methods="testcases.CreateContacts2.validLogin" finished-at="2018-08-04T09:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.CreateContacts2@6615435c]" name="endTest" is-config="true" duration-ms="315" started-at="2018-08-04T09:20:39Z" finished-at="2018-08-04T09:20:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createContact status=SUCCESS method=CreateContacts2.createContact()[pri:0, instance:testcases.CreateContacts2@6615435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="logOut" duration-ms="2115" started-at="2018-08-04T09:20:39Z" depends-on-methods="testcases.CreateContacts2.createContact" finished-at="2018-08-04T09:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.CreateContacts2@6615435c]" name="endTest" is-config="true" duration-ms="1176" started-at="2018-08-04T09:20:42Z" finished-at="2018-08-04T09:20:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=CreateContacts2.logOut()[pri:0, instance:testcases.CreateContacts2@6615435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDownApplication()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="tearDownApplication" is-config="true" duration-ms="771" started-at="2018-08-04T09:20:43Z" finished-at="2018-08-04T09:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownApplication -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testcases.CreateContacts2@6615435c]" name="tearDownReport" is-config="true" duration-ms="478" started-at="2018-08-04T09:20:44Z" finished-at="2018-08-04T09:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- testcases.CreateContacts2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
