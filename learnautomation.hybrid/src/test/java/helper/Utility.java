@@ -18,6 +18,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility {
 
+	
+	
+	public void dummyMethodByDeepak()
+	{
+	
+		System.out.println("Github track");
+		
+	}
 	public static String getCurrentDate_Time() {
 		Date data = new Date();
 
