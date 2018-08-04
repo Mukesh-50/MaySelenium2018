@@ -26,6 +26,14 @@ public class Utility {
 		System.out.println("Github track");
 		
 	}
+	
+	public void dummyMethodByMadhurima()
+	{
+	
+		System.out.println("Github track Part 2");
+		
+	}
+	
 	public static String getCurrentDate_Time() {
 		Date data = new Date();
 
