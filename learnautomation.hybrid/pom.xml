@@ -81,6 +81,7 @@
 					<systemPropertyVariables>
 					
 					<BrowserDetails>${Browser}</BrowserDetails>
+					<URL>${URL}</URL>
 
 					</systemPropertyVariables>
 

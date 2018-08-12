@@ -52,14 +52,14 @@ public class BaseClass {
 	}
 
 
-	@Parameters("Browser")
+	@Parameters({"Browser","URL"})
 	@BeforeClass
-	public void setupApplication (String browser){
+	public void setupApplication (String browser,String url){
 		ConfigDataProvider config = new ConfigDataProvider();
 
 		//browser = config.getBrowser();
 
-		url = config.getStagingURL();
+		//url = config.getStagingURL();
 
 		driver = BrowserFactory.startApplication(browser, url);
 	}
