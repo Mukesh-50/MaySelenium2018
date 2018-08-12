@@ -20,7 +20,7 @@
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>1.2.3</version>
-			 <scope>test</scope>
+			<scope>test</scope>
 		</dependency>
 
 
@@ -59,7 +59,7 @@
 			<artifactId>testng</artifactId>
 			<version>6.9.10</version>
 		</dependency>
-		
+
 
 
 
@@ -77,7 +77,14 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>Contact_Creation.xml</suiteXmlFile>
 					</suiteXmlFiles>
-		
+					
+					<systemPropertyVariables>
+					
+					<BrowserDetails>${Browser}</BrowserDetails>
+
+					</systemPropertyVariables>
+
+
 				</configuration>
 			</plugin>
 

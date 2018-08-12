@@ -52,11 +52,12 @@ public class BaseClass {
 	}
 
 
+	@Parameters("Browser")
 	@BeforeClass
-	public void setupApplication (){
+	public void setupApplication (String browser){
 		ConfigDataProvider config = new ConfigDataProvider();
 
-		browser = config.getBrowser();
+		//browser = config.getBrowser();
 
 		url = config.getStagingURL();
 
