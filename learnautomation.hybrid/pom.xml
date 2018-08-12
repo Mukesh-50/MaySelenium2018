@@ -17,6 +17,14 @@
 
 
 		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.1.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>1.2.3</version>
@@ -77,11 +85,11 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>Contact_Creation.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					
+
 					<systemPropertyVariables>
-					
-					<BrowserDetails>${Browser}</BrowserDetails>
-					<URL>${URL}</URL>
+
+				<!-- 		<BrowserDetails>${Browser}</BrowserDetails>
+						<URL>${URL}</URL> -->
 
 					</systemPropertyVariables>
 

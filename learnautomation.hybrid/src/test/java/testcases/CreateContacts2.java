@@ -17,6 +17,7 @@ public class CreateContacts2 extends BaseClass {
 	LogOutPage logoutPage;
 	Contacts contact;
 
+	
 	@Test
 	public void validLogin() 
 	{
