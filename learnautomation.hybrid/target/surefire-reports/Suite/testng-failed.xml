@@ -6,17 +6,4 @@
       <class name="testcases.CreateContacts2"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="testcases.CreateContacts2">
-        <methods>
-          <include name="validLogin"/>
-          <include name="logOut"/>
-          <include name="setUpReport"/>
-          <include name="createContact"/>
-          <include name="setupApplication"/>
-        </methods>
-      </class> <!-- testcases.CreateContacts2 -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,7 +17,7 @@ public class LoginCRM {
 	
 	@Given("^Open Chrome and start application$")
 	public void open_Chrome_and_start_application() throws Throwable {
-		System.setProperty("webdriver.chrome.driver","/Users/mukeshotwani/Desktop/chromedriver");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Chandani_50\\git\\MaySelenium2018_Aug\\learnautomation.hybrid\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
 		

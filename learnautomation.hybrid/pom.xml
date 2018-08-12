@@ -11,14 +11,16 @@
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>1.2.5</version>
+			<version>1.2.3</version>
+			<scope>test</scope>
 		</dependency>
 
 
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>1.2.5</version>
+			<version>1.2.3</version>
+			 <scope>test</scope>
 		</dependency>
 
 
@@ -57,6 +59,7 @@
 			<artifactId>testng</artifactId>
 			<version>6.9.10</version>
 		</dependency>
+		
 
 
 	</dependencies>
@@ -73,6 +76,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>Contact_Creation.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<RuntimeBrowser>${Browser}</RuntimeBrowser>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 

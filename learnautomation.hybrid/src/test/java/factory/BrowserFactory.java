@@ -22,13 +22,13 @@ public class BrowserFactory {
 
 		} else if (browserName.equalsIgnoreCase("Firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver", "");
+			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 			
 			driver = new FirefoxDriver();
 
 		} else if (browserName.equalsIgnoreCase("IE")) 
 		{
-			System.setProperty("webdriver.ie.driver", "");
+			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer.exe");
 			
 			driver = new InternetExplorerDriver();
 
