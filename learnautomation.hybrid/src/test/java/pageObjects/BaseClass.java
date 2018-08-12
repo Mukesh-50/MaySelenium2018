@@ -51,12 +51,12 @@ public class BaseClass {
 		report.endTest(logger);
 	}
 
-	@Parameters("Browser")
+
 	@BeforeClass
-	public void setupApplication(String browser) {
+	public void setupApplication (){
 		ConfigDataProvider config = new ConfigDataProvider();
 
-		//browser = config.getBrowser();
+		browser = config.getBrowser();
 
 		url = config.getStagingURL();
 

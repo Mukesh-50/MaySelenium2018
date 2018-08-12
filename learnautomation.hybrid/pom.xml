@@ -62,6 +62,7 @@
 		
 
 
+
 	</dependencies>
 
 	<build>
@@ -76,9 +77,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>Contact_Creation.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<RuntimeBrowser>${Browser}</RuntimeBrowser>
-					</systemPropertyVariables>
+		
 				</configuration>
 			</plugin>
 
